@@ -195,12 +195,11 @@ Cras semper auctor neque vitae tempus quam. Euismod quis viverra nibh cras pulvi
     <div class="large-12 columns">
       <div class="row collapse">
         <div class="small-10 columns">
-          <input type="text" data-mask="(000)-000-0000"placeholder="Enter your phone number" />
+          <input name="phone-number" type="text" data-mask="(000)-000-0000" placeholder="Enter your phone number" />
         </div>
         <div class="small-2 columns">
 
-          <a href="#" class="button postfix btn-green"><input type="submit" value="Submit"></input>
-</a>
+          <a href="#" class="button postfix btn-green"><input type="submit" value="Submit"></input></a>
         </div>
       </div>
     </div>
@@ -211,21 +210,21 @@ Cras semper auctor neque vitae tempus quam. Euismod quis viverra nibh cras pulvi
   </div>
   <div class="row">
     <div class="large-4 large-push-2 columns">
-        <select>
+        <select name="day">
           <option value="today">Today</option>
           <option value="tomorrow">Tomorrow</option>
           <option value="other">Other (Specify)</option>
 ]        </select>
     </div>
     <div class="large-6 columns">
-      <input type="radio" name="time" value="ASAP" id="asap"><label for="asap">ASAP</label>
-      <input type="radio" name="time" value="Morning" id="morning"><label for="morning">Morning</label>
-      <input type="radio" name="time" value="Afternoon" id="afternoon"><label for="afternoon">Afternoon</label>
-      <input type="radio" name="time" value="Evening" id="evening"><label for="evening">Evening</label>
+      <input type="radio" name="asap" value="ASAP" id="asap"><label for="asap">ASAP</label>
+      <input type="radio" name="morning" value="Morning" id="morning"><label for="morning">Morning</label>
+      <input type="radio" name="afternoon" value="Afternoon" id="afternoon"><label for="afternoon">Afternoon</label>
+      <input type="radio" name="evening" value="Evening" id="evening"><label for="evening">Evening</label>
 
     </div>
   </div>
-
+<input type="hidden" name="_subject" value="New lead for FRC!" />
 </form>
 <h5>Type in your phone number above and let us know when you’d like to talk. </h5>
 </div>
