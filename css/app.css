@@ -3884,6 +3884,14 @@ table.hover tr:nth-of-type(even):hover {
       height: 88pt;
       font-size: 18pt;
       text-align: center; }
+    .contact form input[type=submit] {
+      opacity: 0.49;
+      background: none;
+      border: none;
+      height: 88pt;
+      font-size: 18pt;
+      text-align: center;
+      margin-top: -3rem; }
     .contact form select {
       background: none;
       border: 2px solid #FFFFFF;
