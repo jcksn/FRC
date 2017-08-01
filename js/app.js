@@ -1,5 +1,5 @@
 $(document).foundation('reveal', 'reflow');
-
+new WOW().init();
 $('form.multi-form a.next').click(function() {
   $('fieldset.active').removeClass('active')
   .next('fieldset').addClass('active');
